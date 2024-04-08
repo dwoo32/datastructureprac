@@ -68,7 +68,7 @@ void show()
         printf("Queue is empty\n");
         return;
     }
-    printf("Queue elements are: ");
+
     for (int i = Front; i <= Rear; i++)
     {
         printf("%d ", inp_arr[i]);
